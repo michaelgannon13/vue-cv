@@ -26,6 +26,12 @@
           Next I was hired as the Lead UI Developer at Accenture in the center of innovation in Dublin. Despite company policy on promotions, they promoted me to Lead UI Developer 8 months 
           into the job. 
         </p>
+        <p class="subheading mt-3">
+          I've always worked in Agile environments and luckily have never been subjected to Waterfall! *laugh emoji*. I work with git, git flow, and BEM for SCSS.
+        </p>
+        <p class="subheading mt-3">
+          Something interesring about me is I was acted in a sausage commenrcial on the telivision *sunglasses face*
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
