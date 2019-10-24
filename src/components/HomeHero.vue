@@ -30,5 +30,6 @@ export default {
   width: 100%;
   height: 100%;
   max-height: 100vh;
+  filter: hue-rotate(50deg);
 }
 </style>
