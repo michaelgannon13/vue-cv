@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout column>
-      <v-flex class="display-2 text-xs-center my-5">Big Title Goes Here</v-flex>
+      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">Who am I?</v-flex>
       <v-flex>
         <div class="headline mt-3">Lorem ipsum</div>
         <p
