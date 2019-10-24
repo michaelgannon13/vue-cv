@@ -3,30 +3,29 @@
     <v-layout column>
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">Who am I?</v-flex>
       <v-flex>
-        <div class="headline mt-3">Lorem ipsum</div>
-        <p
-          class="subheading mt-3"
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus. Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam accumsan ut sem eget efficitur. Vivamus in tortor gravida eros laoreet condimentum nec vel dui. Nullam quam massa, ultrices eget tincidunt a, pulvinar ac libero.</p>
+        <div class="headline mt-3">Bio</div>
+        <p class="subheading mt-3">
+          I'm Michael nice to meet you *wave emoji*. Thanks for stopping by my site, whether you arrived on purpose or not, welcome! I am a Front-end Consultant. 
+          I've a deep fascination the entire process of building intuitive, scalable and robust web applications and apps *Robot emoji*. I have always been enamoured 
+          with design across all mediums and I have a problem solving mind *mind emoji or wrench*.
+        </p>
       </v-flex>
       <v-flex>
-        <div class="headline mt-3">Lorem ipsum</div>
-        <p
-          class="subheading mt-3"
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar risus quis mauris interdum, in euismod nibh pretium. Etiam pulvinar tincidunt dapibus. Quisque sollicitudin, mauris a consequat consectetur, turpis nisl sollicitudin enim, id consectetur neque neque nec metus. Pellentesque dolor nisi, vulputate quis lobortis ac, tincidunt et quam. Mauris pulvinar blandit nisi nec mattis. Aliquam accumsan ut sem eget efficitur. Vivamus in tortor gravida eros laoreet condimentum nec vel dui. Nullam quam massa, ultrices eget tincidunt a, pulvinar ac libero.</p>
-
-        <p
-          class="subheading mt-3"
-        >Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.</p>
-
-        <p
-          class="subheading mt-3"
-        >Aenean erat metus, imperdiet eget nisl laoreet, venenatis ultricies ante. In interdum ante vel dictum ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sit amet gravida diam. Aliquam in tempor metus. Fusce pellentesque pharetra sem, et luctus justo tempor dictum. Ut feugiat est sed tristique egestas. Nullam posuere a nunc in blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse laoreet ultrices eros, nec malesuada enim semper sit amet. Maecenas efficitur consectetur accumsan. Etiam in aliquam turpis, ut pharetra nulla. Vestibulum malesuada, nulla id elementum cursus, nibh dui rhoncus felis, suscipit mattis felis enim sed ex. Pellentesque scelerisque aliquam lorem, vel mattis nibh tincidunt ac. Suspendisse ac nibh sit amet lacus ullamcorper maximus.</p>
-      </v-flex>
-      <v-flex>
-        <div class="headline mt-3">Lorem ipsum</div>
-        <p
-          class="subheading mt-3"
-        >Nullam nec massa eu est fringilla lobortis. Praesent in enim in justo blandit varius. Cras placerat arcu in sapien rhoncus aliquet. Sed interdum tortor et tincidunt condimentum. Etiam consequat mi leo, in suscipit odio scelerisque molestie. Nam et purus consequat, iaculis augue vel, sagittis ligula. Vestibulum aliquet vulputate erat. Phasellus id mauris mauris. Nunc a maximus dolor. Curabitur ut vestibulum arcu. Curabitur non lacus justo. Cras varius a magna in semper. Nulla eros ante, consectetur faucibus sapien eu, rhoncus imperdiet dui. Sed viverra iaculis nunc, id pulvinar massa egestas vitae.</p>
+        <div class="headline mt-3">Work Experience</div>
+        <p class="subheading mt-3">
+          I studied Computer Science in Dublin. From the computer science side I learnt about Data Structures, Algorithms, Frameworks, HTML, CSS and Javascript (to name a few). 
+          This gave me a solid foundation for writing reusable, maintainable, modular and robust code. The course also had a design module where I learnt about Neilsons Hierarchy of needs
+          Design Principles, Color Theory, Grids and the invisible 'rules' that govern compelling design. 
+        </p>
+        <p class="subheading mt-3">
+          I have always worked on hobby projects. One of my latest *simplecss.eu* was sold for profit in 2018 after it started to gain more regular traffic which I monetised using 
+          Google Adsense and a mailing list of a few thousand users. *Talk about other key accomplishments*. Promotion? Owner of Guild? Asked to Travel to Madrid to shape the team
+        </p>
+        <p class="subheading mt-3">
+          I worked in a small Digital Asset Management *http://visualid.com/* company straight after college where I worked as the Front-end developer and gained valuable industry experience.
+          Next I was hired as the Lead UI Developer at Accenture in the center of innovation in Dublin. Despite company policy on promotions, they promoted me to Lead UI Developer 8 months 
+          into the job. 
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
@@ -38,5 +37,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
