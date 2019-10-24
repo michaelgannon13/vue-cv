@@ -9,10 +9,20 @@
         v-for="contact in contacts" 
         v-bind:key="contact"
       >
-        <div class="headline mt-3">{{contact.name}}</div>
+        <div class="headline mt-3">
+          {{contact.name}}
+          <i class="material-icons">
+            {{contact.icon}}
+          </i>
+        </div>
         <p class="subheading mt-3">
-          {{contact.icon}}
-          {{contact.link}}
+          <a 
+            target="_blank" 
+            v-bind:href="contact.link" 
+            v-bind:key="contact"
+          >
+            {{contact.text}}
+          </a>
         </p>
       </v-flex>
     </v-layout>

@@ -1,22 +1,26 @@
 [
     {
         "name": "Email",
-        "icon": "",
-        "link": "michael.gannon3@gmail.com"
+        "icon": "email",
+        "link": "michael.gannon3@gmail.com",
+        "text": "Drop me a line"
     },
     {
         "name": "LinkedIn",
-        "icon": "",
-        "link": "https://www.linkedin.com/in/michael-gannon/"
+        "icon": "people_alt",
+        "link": "https://www.linkedin.com/in/michael-gannon/",
+        "text": "Connect on LinkedIn"
     },
     {
         "name": "Github",
-        "icon": "",
-        "link": "https://github.com/michaelgannon13"
+        "icon": "code",
+        "link": "https://github.com/michaelgannon13",
+        "text": "Check out my code"
     },
     {
         "name": "Flikr",
-        "icon": "",
-        "link": "https://www.flickr.com/photos/162114612@N02/albums"
+        "icon": "image",
+        "link": "https://www.flickr.com/photos/162114612@N02/albums",
+        "text": "Check out my graphics"
     }           
 ]
