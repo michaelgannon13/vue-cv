@@ -4,16 +4,15 @@
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">Contact</v-flex>
     </v-layout>
     <v-layout row>
-      <v-flex xs12 sm12 md6>
-        <div class="headline mt-3">Email</div>
+      <v-flex 
+        xs12 sm12 md6 
+        v-for="contact in contacts" 
+        v-bind:key="contact"
+      >
+        <div class="headline mt-3">{{contact.name}}</div>
         <p class="subheading mt-3">
-          email - michael.gannon13@gmail.com
-        </p>
-      </v-flex>
-      <v-flex xs12 sm12 md6>
-        <div class="headline mt-3">LinkedIn</div>
-        <p class="subheading mt-3">
-          Linkedin - https://www.linkedin.com/in/michael-gannon/
+          {{contact.icon}}
+          {{contact.link}}
         </p>
       </v-flex>
     </v-layout>
@@ -21,8 +20,15 @@
 </template>
 
 <script>
+import Contacts from '../assets/data/contacts-section/contacts.json'
+
 export default {
-  name: "HomeContact"
+  name: "HomeContact",
+    data() {
+    return {
+      contacts: Contacts
+    };
+  }
 };
 </script>
 
