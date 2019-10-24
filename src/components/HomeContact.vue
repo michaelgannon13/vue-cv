@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "HomeDetails"
+  name: "HomeContact"
 };
 </script>
 

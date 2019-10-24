@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .home-hero {
-  background: url("./../assets/deveoper-stock.jpg");
+  background: url("./../assets/images/deveoper-stock.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;

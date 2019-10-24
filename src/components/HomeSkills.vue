@@ -15,7 +15,6 @@
               </v-layout>
             </v-container>
           </v-img>
-
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">{{ skill.name }}</h3>
@@ -31,7 +30,7 @@
 </template>
 
 <script>
-import Skills from '../assets/data/skills.json'
+import Skills from '../assets/data/skills-section/skills.json'
 
 export default {
   name: "HomeSkills",
