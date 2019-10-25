@@ -33,4 +33,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .subheading {
+    font-weight: 300;
+  }
+</style>

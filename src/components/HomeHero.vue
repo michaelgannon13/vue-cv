@@ -10,7 +10,7 @@
       <div class="display-1 font-weight-bold white--text text-xs-center">
         Michael Gannon
       </div>
-      <v-btn fab class="mt-5 brown darken-4">
+      <v-btn fab class="mt-5 blue darken-4">
         <v-icon large color="white">expand_more</v-icon>
       </v-btn>
     </v-layout>
