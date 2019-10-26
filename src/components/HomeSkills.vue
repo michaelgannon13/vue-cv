@@ -18,7 +18,7 @@
           <v-card-title primary-title>
             <div>
               <h3 class="headline mb-0">{{ skill.name }}</h3>
-              <div>
+              <div class="card-body">
                 {{ skill.description }}
               </div>
             </div>
@@ -42,4 +42,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .card-body {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-height: 11rem;
+  }
+</style>
