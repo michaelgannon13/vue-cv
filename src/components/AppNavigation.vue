@@ -1,49 +1,27 @@
 <template>
-  <!-- <span> -->
-    <!--<v-navigation-drawer
-      app
-      v-model="drawer"
-      class="brown lighten-2"
-      dark
-      disable-resize-watcher
-    >
-       <v-list>
-        <template v-for="(item, index) in items">
-          <v-list-tile :key="index">
-            <v-list-tile-content>{{ item.title }}</v-list-tile-content>
-          </v-list-tile>
-          <v-divider :key="`divider-${index}`"></v-divider>
-        </template>
-      </v-list> 
-    </v-navigation-drawer> -->
-    <v-toolbar app color="purple darken-4" dark>
-      <v-toolbar-side-icon
-        class="hidden-md-and-up"
-        @click="drawer = !drawer"
-      ></v-toolbar-side-icon>
-      <v-spacer class="hidden-md-and-up"></v-spacer>
-      <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
-      <v-btn flat class="hidden-sm-and-down">Home</v-btn>
-      <v-btn flat class="hidden-sm-and-down">About</v-btn>
-      <v-btn flat class="hidden-sm-and-down">Skills</v-btn>
-      <v-btn flat class="hidden-sm-and-down">Contact</v-btn>
-      <v-spacer class="hidden-sm-and-down"></v-spacer>
-      <!-- <v-btn flat class="hidden-sm-and-down">SIGN IN</v-btn> -->
-      <!-- <v-btn color="brown lighten-3" class="hidden-sm-and-down">JOIN</v-btn> -->
-    </v-toolbar>
-  <!-- </span> -->
+  <v-toolbar>
+    <v-toolbar-title>Michael Gannon</v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-toolbar-items>
+      <v-btn text>
+        <v-icon>account_circle</v-icon>
+        About Me
+      </v-btn>
+      <v-btn text>
+        <v-icon>build</v-icon>
+        What I can Do
+      </v-btn>
+      <v-btn text>
+        <v-icon>email</v-icon>
+        Contact
+      </v-btn>
+    </v-toolbar-items>
+  </v-toolbar>
 </template>
 
 <script>
 export default {
-  name: "AppNavigation",
-  data() {
-    return {
-      appTitle: "Michael Gannon",
-      drawer: false,
-      items: [{ title: "Menu" }, { title: "Sign In" }, { title: "Join" }]
-    };
-  }
+  name: "AppNavigation"
 };
 </script>
 
