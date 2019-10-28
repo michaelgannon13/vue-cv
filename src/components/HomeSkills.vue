@@ -6,7 +6,7 @@
     <v-layout row wrap>
       <v-flex xs12 sm12 md4 v-for="skill in skills" v-bind:key="skill">
         <v-card>
-          <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" height="500px">
+          <v-img :src="require(path1 + skill.image + ext1)" height="500px">
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
@@ -32,11 +32,16 @@
 <script>
 import Skills from '../assets/data/skills-section/skills.json'
 
+const path = '../assets/images/';
+const extension = '.jpg';
+
 export default {
   name: "HomeSkills",
   data() {
     return {
-      skills: Skills
+      skills: Skills,
+      path1: path,
+      ext1: extension
     };
   }
 };
