@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-lg>
+  <v-container id="skills" grid-list-lg>
     <v-layout row>
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">What I can do for you</v-flex>
     </v-layout>
