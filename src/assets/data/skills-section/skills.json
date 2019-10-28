@@ -6,46 +6,57 @@
     },
     {
     "name": "User Interface",
-    "description": "My specialty for 5+ years. Every aspect relating to the DOM. From creating static Photoshop files to implementing as robust, scalable solutions with an emphasis on user experience"
+    "description": "My specialty for 5+ years. Every aspect relating to the DOM. From creating static Photoshop files to implementing as robust, scalable solutions with an emphasis on user experience",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Javascript",
-    "description": "Angular js and Angular for 5 years. Experience with Vue js, stencil js, react, backbone js, all versions of Bootstrap, Google material, bulma, jQuery and plenty of vanilla JS"
+    "description": "Angular js and Angular for 5 years. Experience with Vue js, stencil js, react, backbone js, all versions of Bootstrap, Google material, bulma, jQuery and plenty of vanilla JS",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Design Thinking",
-    "description": "Founder of the Accenture Design thinking guild. Monthly presentations and spreading the good work. Bringing Dt into all projects. Presenter at the design thinking academy workshops"
+    "description": "Founder of the Accenture Design thinking guild. Monthly presentations and spreading the good work. Bringing Dt into all projects. Presenter at the design thinking academy workshops",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Optimization",
-    "description": "Always been fascinated with improving performance where possible in the web, especially the quick-win changes that have big impact and small overhead."
+    "description": "Always been fascinated with improving performance where possible in the web, especially the quick-win changes that have big impact and small overhead.",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Search Engine Optimization",
-    "description": "Founder of simplecss.eu. a pet project that gained popularity, yielded ad revenue and sold for profit. Storing domain authority highly ranked in Google search results."
+    "description": "Founder of simplecss.eu. a pet project that gained popularity, yielded ad revenue and sold for profit. Storing domain authority highly ranked in Google search results.",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Responsive Web Design",
-    "description": "Using bootstrap since it was in its infancy. I lean toward as mobile first approach and an efficient use of space. Experience with bulma, foundation aswell as flexbox, CSS grid and angular flex layout"
+    "description": "Using bootstrap since it was in its infancy. I lean toward as mobile first approach and an efficient use of space. Experience with bulma, foundation aswell as flexbox, CSS grid and angular flex layout",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Mobile Development",
-    "description": "Extremely enthusiastic about ionic and integrating with other js frameworks angular, react etc. Ionic, angular and stencil. Built a number of applications using ionic. As a front end engineer I lean towards this approach but have also built apps using native Java and XML for Android, the good old fashioned way!"
+    "description": "Extremely enthusiastic about ionic and integrating with other js frameworks angular, react etc. Ionic, angular and stencil. Built a number of applications using ionic. As a front end engineer I lean towards this approach but have also built apps using native Java and XML for Android, the good old fashioned way!",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Wordpress",
-    "description": "Extensive experience with WordPress websites using themes, customizing themes, from scratch, for blogs, for sites. This my staple CMS"
+    "description": "Extensive experience with WordPress websites using themes, customizing themes, from scratch, for blogs, for sites. This my staple CMS",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Identity",
-    "description": "Logo creation, custom websites, blogs, graphic design, branding guidelines, colour palettes, consistency. Created identities for small projects to large scale organisations."
+    "description": "Logo creation, custom websites, blogs, graphic design, branding guidelines, colour palettes, consistency. Created identities for small projects to large scale organisations.",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Services",
-    "description": "Experience writing custom services leveraging 3rd party APIs, consuming response and parsing into human readable format only he UI."
+    "description": "Experience writing custom services leveraging 3rd party APIs, consuming response and parsing into human readable format only he UI.",
+    "image": "../images/prototype.jpg"
     },
     {
     "name": "Accessibility",
-    "description": "Pa11y, wave, screen reader, Google lighthouse audits"
+    "description": "Pa11y, wave, screen reader, Google lighthouse audits",
+    "image": "../images/prototype.jpg"
     }
 ]

@@ -6,7 +6,7 @@
     <v-layout row wrap>
       <v-flex xs12 sm12 md4 v-for="skill in skills" v-bind:key="skill">
         <v-card>
-          <v-img src="http://source.unsplash.com/hjCA3ecCXAQ" height="500px">
+          <v-img v-bind:src=skill.image height="500px">
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
