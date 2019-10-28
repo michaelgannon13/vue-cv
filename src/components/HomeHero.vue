@@ -10,9 +10,11 @@
       <div class="display-1 font-weight-bold white--text text-xs-center">
         Michael Gannon
       </div>
-      <v-btn fab class="mt-5 blue darken-4">
-        <v-icon large color="white">expand_more</v-icon>
-      </v-btn>
+      <a href="#details" class="button">
+        <v-btn fab class="mt-5 blue darken-4">
+          <v-icon large color="white">expand_more</v-icon>
+        </v-btn>
+      </a>
     </v-layout>
   </v-container>
 </template>
@@ -31,5 +33,9 @@ export default {
   height: 100%;
   max-height: 100vh;
   filter: hue-rotate(50deg);
+}
+
+a.button {
+  text-decoration: none;
 }
 </style>

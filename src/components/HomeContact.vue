@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-lg>
+  <v-container id="contact" grid-list-lg>
     <v-layout row>
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5"
         >Contact</v-flex
@@ -7,7 +7,7 @@
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md3 v-for="contact in contacts" v-bind:key="contact">
-        <a target="_blank" v-bind:href="contact.link" v-bind:key="contact">
+        <a class="button" target="_blank" v-bind:href="contact.link" v-bind:key="contact">
           <v-card>
             <v-card-title primary-title>
               <div>
@@ -42,4 +42,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  a.button {
+    text-decoration: none;
+  }
+</style>
