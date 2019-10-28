@@ -3,22 +3,11 @@
     <v-toolbar-title>Michael Gannon</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>
-      <a href="#details" class="button">
+      <a v-bind:href=section.link class="button" 
+        v-for="section in sections" v-bind:key="section">
         <v-btn text>
-          <v-icon>account_circle</v-icon>
-          About Me
-        </v-btn>
-      </a>
-      <a href="#skills" class="button">
-        <v-btn text>
-          <v-icon>build</v-icon>
-          What I can Do
-        </v-btn>
-      </a>
-      <a href="#contact" class="button">
-        <v-btn text>
-          <v-icon>email</v-icon>
-          Contact
+          <v-icon>{{section.icon}}</v-icon>
+          {{section.section}}
         </v-btn>
       </a>
     </v-toolbar-items>
@@ -26,8 +15,15 @@
 </template>
 
 <script>
+import Sections from '../assets/data/nav-section/sections.json'
+
 export default {
-  name: "AppNavigation"
+  name: "AppNavigation",
+  data() {
+    return {
+      sections: Sections
+    }
+  }
 };
 </script>
 
