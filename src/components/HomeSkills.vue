@@ -4,9 +4,9 @@
       <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">What I can do for you</v-flex>
     </v-layout>
     <v-layout row wrap>
-      <v-flex xs12 sm12 md4 v-for="skill in skills" v-bind:key="skill">
+      <v-flex xs12 sm12 md4 v-for="(skill, idx) in skills" :key="idx">
         <v-card>
-          <v-img v-bind:src=skill.image height="500px">
+          <v-img :src="skill.image" height="500px">
             <v-container fill-height fluid>
               <v-layout fill-height>
                 <v-flex xs12 align-end flexbox>
@@ -36,17 +36,17 @@ export default {
   name: "HomeSkills",
   data() {
     return {
-      skills: Skills
+      skills: Skills 
     };
   }
 };
 </script>
 
 <style scoped>
-  .card-body {
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    min-height: 11rem;
-  }
+.card-body {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  min-height: 11rem;
+}
 </style>
