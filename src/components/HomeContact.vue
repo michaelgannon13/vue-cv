@@ -1,8 +1,11 @@
 <template>
   <v-container id="contact" grid-list-lg>
     <v-layout row>
-      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5"
+      <v-flex xs12 class="text-xs-center display-1 font-weight-black mt-5"
         >Contact</v-flex
+      >
+      <v-flex xs12 class="text-xs-center subtitle-1 font-weight-light"
+        >I'm pretty active on the platforms below so if you'd like to collaborate get in touch</v-flex
       >
     </v-layout>
     <v-layout row wrap>
@@ -17,9 +20,10 @@
                   </v-icon>
                   {{ contact.name }}
                 </h3>
-                <div>
+                <v-flex xs12 class="text-xs-center subtitle-1 font-weight-light"
+        >
                   {{ contact.text }}
-                </div>
+                </v-flex>
               </div>
             </v-card-title>
           </v-card>
