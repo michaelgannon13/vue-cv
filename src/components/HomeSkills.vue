@@ -1,7 +1,9 @@
 <template>
   <v-container id="skills" grid-list-lg>
     <v-layout row>
-      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">What I can do for you</v-flex>
+      <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5"
+        >What I can do for you</v-flex
+      >
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md4 v-for="(skill, idx) in skills" :key="idx">
@@ -30,13 +32,13 @@
 </template>
 
 <script>
-import Skills from '../assets/data/skills-section/skills.json'
+import Skills from "../assets/data/skills-section/skills.json";
 
 export default {
   name: "HomeSkills",
   data() {
     return {
-      skills: Skills 
+      skills: Skills
     };
   }
 };

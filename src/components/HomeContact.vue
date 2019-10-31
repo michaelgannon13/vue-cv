@@ -5,12 +5,18 @@
         >Contact</v-flex
       >
       <v-flex xs12 class="text-xs-center subtitle-1 font-weight-light"
-        >I'm pretty active on the platforms below so if you'd like to collaborate get in touch</v-flex
+        >I'm pretty active on the platforms below so if you'd like to
+        collaborate get in touch</v-flex
       >
     </v-layout>
     <v-layout row wrap>
       <v-flex xs12 sm12 md3 v-for="contact in contacts" v-bind:key="contact">
-        <a class="button" target="_blank" v-bind:href="contact.link" v-bind:key="contact">
+        <a
+          class="button"
+          target="_blank"
+          v-bind:href="contact.link"
+          v-bind:key="contact"
+        >
           <v-card>
             <v-card-title primary-title>
               <div>
@@ -20,8 +26,10 @@
                   </v-icon>
                   {{ contact.name }}
                 </h3>
-                <v-flex xs12 class="text-xs-center subtitle-1 font-weight-light"
-        >
+                <v-flex
+                  xs12
+                  class="text-xs-center subtitle-1 font-weight-light"
+                >
                   {{ contact.text }}
                 </v-flex>
               </div>
@@ -47,7 +55,7 @@ export default {
 </script>
 
 <style scoped>
-  a.button {
-    text-decoration: none;
-  }
+a.button {
+  text-decoration: none;
+}
 </style>
